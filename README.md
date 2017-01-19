@@ -1,4 +1,4 @@
-# curl-seo-tester
+# curl-https-www-tester
 test if your domain has proper https and www rewrites
 
 
