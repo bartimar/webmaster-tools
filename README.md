@@ -1,23 +1,6 @@
-# curl-https-www-tester
-test if your domain has proper https and www rewrites
+# simple bash webmaster tools
 
-
-## usage:
-```
-user@host:~# chmod +x ./testurls.sh
-user@host:~# ./testurls.sh domain.com
-testing url http://domain.com
-HTTP/1.1 301 Moved Permanently
-Location: https://domain.com/
-
-testing url http://www.domain.com
-HTTP/1.1 301 Moved Permanently
-Location: https://www.domain.com/
-
-testing url https://domain.com
-HTTP/1.1 301 Moved Permanently
-Location: https://www.domain.com/
-
-testing url https://www.domain.com
-HTTP/1.1 200 OK
-```
+## DNS
+for checking dns-related stuff like domain purchase availability
+## URL
+for checking proper url rewrites, http header codes for seo purposes
